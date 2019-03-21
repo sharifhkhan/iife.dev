@@ -5,29 +5,13 @@
   "version": "0.1.0",
   "author": "Sharif H. Khan <github@sharifhkhan.com> (https://www.iife.dev)",
   "license": "MIT",
-  "dependencies": {
-    "@material-ui/core": "^3.9.2",
-    "gatsby": "^2.2.3",
-    "gatsby-image": "^2.0.34",
-    "gatsby-plugin-manifest": "^2.0.24",
-    "gatsby-plugin-material-ui": "^1.2.4",
-    "gatsby-plugin-offline": "^2.0.25",
-    "gatsby-plugin-react-helmet": "^3.0.10",
-    "gatsby-plugin-sharp": "^2.0.30",
-    "gatsby-source-filesystem": "^2.0.27",
-    "gatsby-transformer-sharp": "^2.1.17",
-    "prop-types": "^15.7.2",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
-    "react-helmet": "^5.2.0",
-    "typeface-roboto": "0.0.54"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sharifhkhan/iife.dev"
   },
-  "devDependencies": {
-    "prettier": "^1.16.4"
+  "bugs": {
+    "url": "https://github.com/sharifhkhan/iife.dev/issues"
   },
-  "keywords": [
-    "gatsby"
-  ],
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -36,11 +20,12 @@
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sharifhkhan/iife.dev"
+  "dependencies": {
+    "gatsby": "^2.2.3",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
   },
-  "bugs": {
-    "url": "https://github.com/sharifhkhan/iife.dev/issues"
+  "devDependencies": {
+    "prettier": "^1.16.4"
   }
 }
