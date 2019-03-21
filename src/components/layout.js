@@ -8,9 +8,12 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
-
 import Header from "./header"
 import "./layout.css"
+import "typeface-roboto"
+require("typeface-roboto")
+
+window.__MUI_USE_NEXT_TYPOGRAPHY_VARIANTS__ = true
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -36,9 +39,9 @@ const Layout = ({ children }) => (
         >
           <main>{children}</main>
           <footer>
-            © {new Date().getFullYear()}, Built with
+            © {new Date().getFullYear()}, Built by
             {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
+            <a href="https://github.com/sharifhkhan/iife.dev">Sharif H. Khan</a>
           </footer>
         </div>
       </>
